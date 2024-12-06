@@ -58,29 +58,41 @@ Her maç için ayrı bir sohbet odası oluşturulur ve yalnızca aktif maçları
 ## 📁 Proje Yapısı
 
 ### Backend Solution Yapısı
-\`\`\`
+
 MatchChat/
 ├── src/
-│   ├── MatchChat.API/           # API Controllers
-│   ├── MatchChat.Core/          # Domain entities
-│   ├── MatchChat.Infrastructure/# External servisler
-│   └── MatchChat.Application/   # Business logic
+│   ├── MatchChat.API/           # API Controllers ve startup yapılandırması
+│   ├── MatchChat.Core/          # Domain entities ve interfaces
+│   ├── MatchChat.Infrastructure/ # External servislerin implementasyonları
+│   └── MatchChat.Application/   # Business logic ve servisler
 └── tests/
-    ├── MatchChat.UnitTests/
-    └── MatchChat.IntegrationTests/
-\`\`\`
+    ├── MatchChat.UnitTests/     # Unit testler
+    └── MatchChat.IntegrationTests/ # Integration testler
+
 
 ### Frontend Proje Yapısı
-\`\`\`
+
 matchchat.web/
-├── public/
+├── public/                      # Statik dosyalar (favicon, index.html vs.)
 ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   ├── types/
-│   └── test-utils/
-\`\`\`
+│   ├── components/              # Yeniden kullanılabilir UI bileşenleri
+│   │   ├── Layout.tsx
+│   │   ├── MatchScore.tsx
+│   │   ├── MatchChat.tsx
+│   │   └── ProtectedRoute.tsx
+│   ├── pages/                   # Sayfa bileşenleri
+│   │   ├── Login.tsx
+│   │   ├── Register.tsx
+│   │   ├── MatchList.tsx
+│   │   └── MatchDetail.tsx
+│   ├── services/                # API ve SignalR servisleri
+│   │   ├── authService.ts
+│   │   └── signalRService.ts
+│   ├── types/                   # TypeScript tip tanımlamaları
+│   │   ├── auth.ts
+│   │   └── match.ts
+│   └── test-utils/              # Test yardımcı fonksiyonları
+
 
 ## ✨ Özellikler
 
