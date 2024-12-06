@@ -1,0 +1,17 @@
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\bin\Debug\net9.0\MatchChat.Infrastructure.deps.json
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\bin\Debug\net9.0\MatchChat.Infrastructure.runtimeconfig.json
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\bin\Debug\net9.0\MatchChat.Infrastructure.dll
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\bin\Debug\net9.0\MatchChat.Infrastructure.pdb
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\bin\Debug\net9.0\MatchChat.Core.dll
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\bin\Debug\net9.0\MatchChat.Core.pdb
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\obj\Debug\net9.0\MatchChat.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\obj\Debug\net9.0\MatchChat.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\obj\Debug\net9.0\MatchChat.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\obj\Debug\net9.0\MatchChat.Infrastructure.AssemblyInfo.cs
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\obj\Debug\net9.0\MatchChat.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\obj\Debug\net9.0\MatchCha.AC637ED5.Up2Date
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\obj\Debug\net9.0\MatchChat.Infrastructure.dll
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\obj\Debug\net9.0\refint\MatchChat.Infrastructure.dll
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\obj\Debug\net9.0\MatchChat.Infrastructure.pdb
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\obj\Debug\net9.0\MatchChat.Infrastructure.genruntimeconfig.cache
+C:\Users\AKYOL\Desktop\MatchChat\MatchChat.Infrastructure\obj\Debug\net9.0\ref\MatchChat.Infrastructure.dll

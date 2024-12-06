@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "yhDa6ZtGda3BhmzZvDPYMytIMwIzNLTlKRrVjUDD+Lo=",
+  "Source": "MatchChat.API",
+  "BasePath": "_content/MatchChat.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
