@@ -1,42 +1,40 @@
 # MatchChat - Türkiye Süper Ligi Canlı Maç Sohbet Platformu
 
----
+MatchChat, Türkiye Süper Ligi'ndeki canlı maçlar için gerçek zamanlı sohbet odaları sunan bir web uygulamasıdır. Kullanıcılar aktif maçlara katılarak diğer taraftarlarla etkileşime girebilir.
 
-## İçindekiler
-1. [Proje Hakkında](#proje-hakkında)
-2. [Teknolojiler](#teknolojiler)
-3. [Proje Yapısı](#proje-yapısı)
-4. [Özellikler](#özellikler)
-5. [Kurulum](#kurulum)
-6. [Test](#test)
-7. [Yapılan İşler](#yapılan-işler)
-8. [Yapılacak İşler](#yapılacak-işler)
+## 📑 İçindekiler
 
----
+- [Proje Hakkında](#proje-hakkında)
+- [Teknolojiler](#teknolojiler)
+- [Proje Yapısı](#proje-yapısı)
+- [Özellikler](#özellikler)
+- [Kurulum](#kurulum)
+- [Test](#test)
+- [Yapılan İşler](#yapılan-işler)
+- [Yapılacak İşler](#yapılacak-işler)
 
-## Proje Hakkında
+## 🎯 Proje Hakkında
 
-MatchChat, Türkiye Süper Ligi'ndeki canlı maçlar için gerçek zamanlı sohbet odaları sunan bir web uygulamasıdır. Kullanıcılar aktif maçlara katılarak diğer taraftarlarla etkileşime girebilir. Her maç için ayrı bir sohbet odası oluşturulur ve yalnızca aktif maçların sohbet odalarına erişilebilir.
+Her maç için ayrı bir sohbet odası oluşturulur ve yalnızca aktif maçların sohbet odalarına erişilebilir.
 
 ### Temel Özellikler
-- Kullanıcı kaydı ve girişi
-- Canlı maçları görüntüleme
-- Gerçek zamanlı sohbet
-- Canlı skor güncellemeleri
-- Kullanıcı seviye sistemi
 
----
+- 👤 Kullanıcı kaydı ve girişi
+- 🎮 Canlı maçları görüntüleme
+- 💬 Gerçek zamanlı sohbet
+- 🎯 Canlı skor güncellemeleri
+- ⭐ Kullanıcı seviye sistemi
 
-## Teknolojiler
+## 🛠 Teknolojiler
 
 ### Backend
 - .NET 8.0
 - ASP.NET Core Web API
 - Entity Framework Core
 - PostgreSQL (Docker container)
-- SignalR (gerçek zamanlı iletişim)
+- SignalR
 - JWT Authentication
-- Football-API (Maç verileri için)
+- Football-API
 
 ### Frontend
 - React 18
@@ -47,59 +45,44 @@ MatchChat, Türkiye Süper Ligi'ndeki canlı maçlar için gerçek zamanlı sohb
 - SignalR Client
 
 ### Test
-- Jest & React Testing Library (Frontend unit testler)
-- Cypress (E2E testler)
-- xUnit (Backend unit testler)
+- Jest & React Testing Library
+- Cypress
+- xUnit
 
-### Diğer Araçlar
+### DevOps & Araçlar
 - Docker
 - Git
 - Visual Studio 2022
 - Visual Studio Code
 
----
-
-## Proje Yapısı
+## 📁 Proje Yapısı
 
 ### Backend Solution Yapısı
+\`\`\`
 MatchChat/
 ├── src/
-│   ├── MatchChat.API/           # API Controllers ve startup yapılandırması
-│   ├── MatchChat.Core/          # Domain entities ve interfaces
-│   ├── MatchChat.Infrastructure/ # External servislerin implementasyonları
-│   └── MatchChat.Application/   # Business logic ve servisler
+│   ├── MatchChat.API/           # API Controllers
+│   ├── MatchChat.Core/          # Domain entities
+│   ├── MatchChat.Infrastructure/# External servisler
+│   └── MatchChat.Application/   # Business logic
 └── tests/
-    ├── MatchChat.UnitTests/     # Unit testler
-    └── MatchChat.IntegrationTests/ # Integration testler
-
+    ├── MatchChat.UnitTests/
+    └── MatchChat.IntegrationTests/
+\`\`\`
 
 ### Frontend Proje Yapısı
+\`\`\`
 matchchat.web/
-├── public/                      # Statik dosyalar (favicon, index.html vs.)
+├── public/
 ├── src/
-│   ├── components/              # Yeniden kullanılabilir UI bileşenleri
-│   │   ├── Layout.tsx
-│   │   ├── MatchScore.tsx
-│   │   ├── MatchChat.tsx
-│   │   └── ProtectedRoute.tsx
-│   ├── pages/                   # Sayfa bileşenleri
-│   │   ├── Login.tsx
-│   │   ├── Register.tsx
-│   │   ├── MatchList.tsx
-│   │   └── MatchDetail.tsx
-│   ├── services/                # API ve SignalR servisleri
-│   │   ├── authService.ts
-│   │   └── signalRService.ts
-│   ├── types/                   # TypeScript tip tanımlamaları
-│   │   ├── auth.ts
-│   │   └── match.ts
-│   └── test-utils/              # Test yardımcı fonksiyonları
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── types/
+│   └── test-utils/
+\`\`\`
 
-
-
----
-
-## Özellikler
+## ✨ Özellikler
 
 ### Kullanıcı İşlemleri
 - Kayıt olma (email doğrulama)
@@ -117,12 +100,10 @@ matchchat.web/
 - Gerçek zamanlı mesajlaşma
 - Mesaj alıntılama
 - Emoji desteği
-- 5 saniyelik spam koruması
+- Spam koruması
 - Kullanıcı seviyeleri
 
----
-
-## Kurulum
+## 🚀 Kurulum
 
 ### Gereksinimler
 - .NET 8.0 SDK
@@ -132,7 +113,8 @@ matchchat.web/
 - Visual Studio 2022 veya VS Code
 
 ### Backend Kurulum
-```bash
+
+\`\`\`bash
 # Repository'yi klonlayın
 git clone https://github.com/yourusername/matchchat.git
 
@@ -141,10 +123,11 @@ docker-compose up -d
 
 # Migration'ları çalıştırın
 dotnet ef database update
-
+\`\`\`
 
 ### Frontend Kurulum
 
+\`\`\`bash
 # Frontend klasörüne gidin
 cd matchchat.web
 
@@ -153,130 +136,94 @@ npm install
 
 # Geliştirme sunucusunu başlatın
 npm start
+\`\`\`
 
+## 🧪 Test
 
-### Test
+### Backend Testleri
 
-## Backend Testleri
-
+\`\`\`bash
 # Tüm testleri çalıştırma
 dotnet test
 
 # Belirli bir test projesini çalıştırma
 dotnet test MatchChat.UnitTests
+\`\`\`
 
-## Frontend Testleri
+### Frontend Testleri
 
+\`\`\`bash
 # Unit testleri çalıştırma
 npm test
 
 # Test coverage raporu
 npm test -- --coverage
 
-# Cypress E2E testlerini çalıştırma
+# E2E testleri
 npm run cypress:open
+\`\`\`
 
+## ✅ Yapılan İşler
 
-Yapılan İşler
+### Proje Başlangıcı
+- ✅ Solution yapısı oluşturuldu
+- ✅ Temel klasör yapısı hazırlandı
+- ✅ Docker compose dosyası hazırlandı
 
-Proje Başlangıcı ve Temel Yapı
-- Solution yapısı oluşturuldu
-- Temel klasör yapısı hazırlandı
-- Docker compose dosyası hazırlandı
+### Backend
+- ✅ Entity modelleri oluşturuldu
+- ✅ PostgreSQL entegrasyonu
+- ✅ Repository pattern implementasyonu
 
-Backend Geliştirmeleri
-- Entity modelleri oluşturuldu
-- PostgreSQL entegrasyonu tamamlandı
-- Repository pattern implementasyonu
+### Frontend
+- ✅ React projesi oluşturuldu
+- ✅ Routing yapısı kuruldu
+- ✅ Temel componentler oluşturuldu
 
-Frontend Geliştirmeleri
-- React projesi oluşturuldu
-- Routing yapısı kuruldu
-- Temel componentler oluşturuldu
+### Test
+- ✅ Jest ve RTL kurulumu
+- ✅ İlk test senaryoları
+- ✅ Test utilities
 
-Test Altyapısı
-- Jest ve React Testing Library kurulumu
-- İlk test senaryoları yazıldı
-- Test utilities oluşturuldu
+## 📋 Yapılacak İşler
 
-Yapılacak İşler
-
-Backend Görevleri
-- SignalR Hub Geliştirmesi
-  - Canlı sohbet altyapısının kurulması
+### Backend Görevleri
+- [ ] SignalR Hub Geliştirmesi
+  - Canlı sohbet altyapısı
   - Mesaj geçmişi yönetimi
   - Kullanıcı bağlantı yönetimi
-- Football-API Entegrasyonu
-  - API servisinin oluşturulması
-  - Veri çekme ve dönüştürme işlemleri
-  - Cache mekanizması
-- Kullanıcı Sistemi
-  - Email doğrulama sistemi
-  - Şifre sıfırlama
-  - Profil yönetimi
-- Güvenlik
-  - Rate limiting implementasyonu
-  - Input validasyonları
-  - XSS koruması
+- [ ] Football-API Entegrasyonu
+- [ ] Kullanıcı Sistemi
+- [ ] Güvenlik İyileştirmeleri
 
-Frontend Görevleri
-- UI/UX Geliştirmeleri
-  - Responsive tasarım
-  - Tema sistemi
-  - Loading states
-- Sohbet Özellikleri
-  - Emoji picker
-  - Mesaj alıntılama UI
-  - Otomatik scroll
-- Maç Sayfası
-  - Canlı skor gösterimi
-  - İstatistik grafikleri
-  - Olay akışı
-- Form Validasyonları
-  - Login formu
-  - Register formu
-  - Profil güncelleme formu
+### Frontend Görevleri
+- [ ] UI/UX Geliştirmeleri
+- [ ] Sohbet Özellikleri
+- [ ] Maç Sayfası
+- [ ] Form Validasyonları
 
-Test Görevleri
-- Backend Tests
-  - Unit testlerin tamamlanması
-  - Integration testlerin yazılması
-  - Performance testleri
-- Frontend Tests
-  - Component testleri
-  - E2E senaryoları
-  - Mock service testleri
+### Test Görevleri
+- [ ] Backend Tests
+- [ ] Frontend Tests
+- [ ] E2E Tests
 
-DevOps Görevleri
-- CI/CD Pipeline
-  - GitHub Actions kurulumu
-  - Otomatik deployment
-  - Test automation
-- Monitoring
-  - Log sistemi
-  - Error tracking
-  - Performance monitoring
+### DevOps Görevleri
+- [ ] CI/CD Pipeline
+- [ ] Monitoring
+- [ ] Log Sistemi
 
-Dokümantasyon
-- API Dokümantasyonu
-  - Swagger/OpenAPI
-  - Endpoint açıklamaları
-  - Request/Response örnekleri
-- Kullanıcı Dokümantasyonu
-  - Kullanım kılavuzu
-  - SSS
-  - Video tutoriallar
+### Dokümantasyon
+- [ ] API Dokümantasyonu
+- [ ] Kullanıcı Kılavuzu
+- [ ] Geliştirici Dokümantasyonu
 
-Öncelikli Görevler
-- Authentication sisteminin tamamlanması
-- Football-API entegrasyonu
-- SignalR chat sistemi
-- Temel UI componentlerinin tamamlanması
-- Test coverage'ının artırılması
+## 📌 Notlar
 
-Notlar
 - Tüm geliştirmeler feature branch'lerde yapılacak
 - Kod kalitesi için Sonar analizi kullanılacak
 - Her sprint sonunda security audit yapılacak
 - Performance monitoring için Azure Application Insights kullanılacak
 
+## 📄 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakınız.
