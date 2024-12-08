@@ -20,6 +20,15 @@ namespace MatchChat.UnitTests.Services
             // Arrange
             var mockUserRepo = new Mock<IUserRepository>();
             var mockJwtService = new Mock<IJwtService>();
+
+            // Setup mock repository to return success
+            mockUserRepo.Setup(x => x.CreateAsync(It.IsAny<User>()))
+                .ReturnsAsync(true); // CreateAsync başarılı olacak şekilde ayarlıyoruz
+
+            // Setup JWT service to return a token
+            mockJwtService.Setup(x => x.GenerateToken(It.IsAny<User>()))
+                .Returns("test-token");
+
             var authService = new AuthService(mockUserRepo.Object, mockJwtService.Object);
 
             var request = new RegisterRequest

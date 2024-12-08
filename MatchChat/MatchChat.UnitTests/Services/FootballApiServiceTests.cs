@@ -1,4 +1,5 @@
 ﻿using MatchChat.Infrastructure.Services;
+using Microsoft.Extensions.Configuration;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,8 @@ namespace MatchChat.UnitTests.Services
         {
             // Arrange
             var mockHttpClient = new Mock<HttpClient>();
-            var service = new FootballApiService(mockHttpClient.Object);
+            var mockConfiguration = new Mock<IConfiguration>();
+            var service = new FootballApiService(mockHttpClient.Object, mockConfiguration.Object);
 
             // Act
             var matches = await service.GetLiveMatchesAsync();

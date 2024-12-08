@@ -22,33 +22,32 @@ namespace MatchChat.Application.Services
 
         public async Task<AuthResponse> RegisterAsync(RegisterRequest request)
         {
-            // Email kontrolü
+            // Email ve nickname kontrolü
             if (await _userRepository.GetByEmailAsync(request.Email) != null)
-                throw new Exception("Email already exists");
+                throw new InvalidOperationException("Email already exists");
 
-            // Nickname kontrolü
             if (await _userRepository.GetByNicknameAsync(request.Nickname) != null)
-                throw new Exception("Nickname already exists");
+                throw new InvalidOperationException("Nickname already exists");
 
-            // Şifre hash'leme
-            string passwordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
-
+            // Şifre hash'leme ve kullanıcı oluşturma
             var user = new User
             {
                 Id = Guid.NewGuid(),
-                Email = request.Email,
+                Email = request.Email.ToLower(),
                 Nickname = request.Nickname,
-                PasswordHash = passwordHash,
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password),
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 FavoriteTeam = request.FavoriteTeam,
                 CreatedAt = DateTime.UtcNow,
+                IsEmailVerified = false,
                 Level = 1,
-                MessageCount = 0,
-                IsEmailVerified = false
+                MessageCount = 0
             };
 
-            await _userRepository.CreateAsync(user);
+            var success = await _userRepository.CreateAsync(user);
+            if (!success)
+                throw new InvalidOperationException("Failed to create user");
 
             return new AuthResponse
             {
@@ -62,10 +61,10 @@ namespace MatchChat.Application.Services
         {
             var user = await _userRepository.GetByEmailAsync(request.Email);
             if (user == null)
-                throw new Exception("Invalid email or password");
+                throw new InvalidOperationException("Invalid email or password");
 
             if (!BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
-                throw new Exception("Invalid email or password");
+                throw new InvalidOperationException("Invalid email or password");
 
             return new AuthResponse
             {

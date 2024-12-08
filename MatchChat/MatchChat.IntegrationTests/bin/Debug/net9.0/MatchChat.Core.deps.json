@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "MatchChat.Core/1.0.0": {
+        "runtime": {
+          "MatchChat.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MatchChat.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

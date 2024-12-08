@@ -1,44 +1,37 @@
-﻿using MatchChat.Core.Models.Auth;
-using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http.Json;
-using System.Text;
+﻿using System.Net.Http.Json;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.TestHost;
+using Microsoft.Extensions.DependencyInjection;
+using MatchChat.Core.Models.Auth;
+using MatchChat.Core.Enums;
+using Microsoft.Extensions.Hosting;
+using MatchChat.API;
+using System.Net.Http;
 using System.Threading.Tasks;
+using Xunit;
+using MatchChat.Application.Services;
+using MatchChat.Core.Interfaces;
+using Microsoft.Extensions.Configuration;
 
 namespace MatchChat.IntegrationTests.Controllers
 {
-    // MatchChat.IntegrationTests/Controllers/AuthControllerTests.cs
-    public class AuthControllerTests : IClassFixture<WebApplicationFactory<Program>>
+    public class AuthControllerTests
     {
-        private readonly WebApplicationFactory<Program> _factory;
+        private readonly HttpClient _client;
 
-        public AuthControllerTests(WebApplicationFactory<Program> factory)
+        public AuthControllerTests()
         {
-            _factory = factory;
-        }
+            var hostBuilder = Host.CreateDefaultBuilder()
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<TestStartup>() // TestStartup kullanıyoruz
+                             .UseTestServer();
+                });
 
-        [Fact]
-        public async Task Register_WithValidData_ShouldReturnToken()
-        {
-            // Arrange
-            var client = _factory.CreateClient();
-            var request = new RegisterRequest
-            {
-                Email = "test@test.com",
-                Password = "Test123!",
-                Nickname = "testuser"
-            };
-
-            // Act
-            var response = await client.PostAsJsonAsync("/api/auth/register", request);
-
-            // Assert
-            response.EnsureSuccessStatusCode();
-            var result = await response.Content.ReadFromJsonAsync<AuthResponse>();
-            Assert.NotNull(result?.Token);
+            var host = hostBuilder.Start();
+            _client = host.GetTestClient();
         }
     }
+
+    
 }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MatchChat.IntegrationTests.props" />
+</Project>

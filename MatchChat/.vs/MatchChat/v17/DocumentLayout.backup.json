@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1F616B3D-C736-47D0-A68F-CE6CB3C2AB78}|MatchChat.API\\MatchChat.API.csproj|c:\\users\\akyol\\desktop\\matchchat\\matchchat.api\\matchchat.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1F616B3D-C736-47D0-A68F-CE6CB3C2AB78}|MatchChat.API\\MatchChat.API.csproj|solutionrelative:matchchat.api\\matchchat.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0234C3-533C-4AE0-900B-FD6543D4F246}|MatchChat.IntegrationTests\\MatchChat.IntegrationTests.csproj|c:\\users\\akyol\\desktop\\matchchat\\matchchat.integrationtests\\matchchat.integrationtests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD0234C3-533C-4AE0-900B-FD6543D4F246}|MatchChat.IntegrationTests\\MatchChat.IntegrationTests.csproj|solutionrelative:matchchat.integrationtests\\matchchat.integrationtests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FF25B9-8FE6-45A7-ABA0-4AF6E746299C}|MatchChat.UnitTests\\MatchChat.UnitTests.csproj|c:\\users\\akyol\\desktop\\matchchat\\matchchat.unittests\\services\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FF25B9-8FE6-45A7-ABA0-4AF6E746299C}|MatchChat.UnitTests\\MatchChat.UnitTests.csproj|solutionrelative:matchchat.unittests\\services\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0234C3-533C-4AE0-900B-FD6543D4F246}|MatchChat.IntegrationTests\\MatchChat.IntegrationTests.csproj|c:\\users\\akyol\\desktop\\matchchat\\matchchat.integrationtests\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD0234C3-533C-4AE0-900B-FD6543D4F246}|MatchChat.IntegrationTests\\MatchChat.IntegrationTests.csproj|solutionrelative:matchchat.integrationtests\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FF25B9-8FE6-45A7-ABA0-4AF6E746299C}|MatchChat.UnitTests\\MatchChat.UnitTests.csproj|c:\\users\\akyol\\desktop\\matchchat\\matchchat.unittests\\services\\footballapiservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FF25B9-8FE6-45A7-ABA0-4AF6E746299C}|MatchChat.UnitTests\\MatchChat.UnitTests.csproj|solutionrelative:matchchat.unittests\\services\\footballapiservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EBB362-15C6-42E9-A74B-3E5BF7D4C620}|MatchChat.Application\\MatchChat.Application.csproj|c:\\users\\akyol\\desktop\\matchchat\\matchchat.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EBB362-15C6-42E9-A74B-3E5BF7D4C620}|MatchChat.Application\\MatchChat.Application.csproj|solutionrelative:matchchat.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1F616B3D-C736-47D0-A68F-CE6CB3C2AB78}|MatchChat.API\\MatchChat.API.csproj|c:\\users\\akyol\\desktop\\matchchat\\matchchat.api\\hubs\\matchhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F616B3D-C736-47D0-A68F-CE6CB3C2AB78}|MatchChat.API\\MatchChat.API.csproj|solutionrelative:matchchat.api\\hubs\\matchhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,11 +70,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MatchChat.API",
+              "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.API\\MatchChat.API.csproj",
+              "RelativeDocumentMoniker": "MatchChat.API\\MatchChat.API.csproj",
+              "ToolTip": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.API\\MatchChat.API.csproj",
+              "RelativeToolTip": "MatchChat.API\\MatchChat.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T20:03:08.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MatchChat.IntegrationTests",
+              "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.IntegrationTests\\MatchChat.IntegrationTests.csproj",
+              "RelativeDocumentMoniker": "MatchChat.IntegrationTests\\MatchChat.IntegrationTests.csproj",
+              "ToolTip": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.IntegrationTests\\MatchChat.IntegrationTests.csproj",
+              "RelativeToolTip": "MatchChat.IntegrationTests\\MatchChat.IntegrationTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T19:57:51.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.IntegrationTests\\Controllers\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "MatchChat.IntegrationTests\\Controllers\\AuthControllerTests.cs",
+              "ToolTip": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.IntegrationTests\\Controllers\\AuthControllerTests.cs",
+              "RelativeToolTip": "MatchChat.IntegrationTests\\Controllers\\AuthControllerTests.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:41:28.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AuthServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.UnitTests\\Services\\AuthServiceTests.cs",
+              "RelativeDocumentMoniker": "MatchChat.UnitTests\\Services\\AuthServiceTests.cs",
+              "ToolTip": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.UnitTests\\Services\\AuthServiceTests.cs",
+              "RelativeToolTip": "MatchChat.UnitTests\\Services\\AuthServiceTests.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:37:24.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "MatchChat.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "MatchChat.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T19:59:13.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FootballApiServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.UnitTests\\Services\\FootballApiServiceTests.cs",
+              "RelativeDocumentMoniker": "MatchChat.UnitTests\\Services\\FootballApiServiceTests.cs",
+              "ToolTip": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.UnitTests\\Services\\FootballApiServiceTests.cs",
+              "RelativeToolTip": "MatchChat.UnitTests\\Services\\FootballApiServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:37:58.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MatchUpdateService.cs",
               "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.API\\Services\\MatchUpdateService.cs",
               "RelativeDocumentMoniker": "MatchChat.API\\Services\\MatchUpdateService.cs",
@@ -58,25 +160,23 @@
               "RelativeToolTip": "MatchChat.API\\Services\\MatchUpdateService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:11:55.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:11:55.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "MatchHub.cs",
               "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.API\\Hubs\\MatchHub.cs",
               "RelativeDocumentMoniker": "MatchChat.API\\Hubs\\MatchHub.cs",
               "ToolTip": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.API\\Hubs\\MatchHub.cs",
               "RelativeToolTip": "MatchChat.API\\Hubs\\MatchHub.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:10:50.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:10:50.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "ChatMessage.cs",
               "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.Core\\Models\\Chat\\ChatMessage.cs",
               "RelativeDocumentMoniker": "MatchChat.Core\\Models\\Chat\\ChatMessage.cs",
@@ -84,12 +184,11 @@
               "RelativeToolTip": "MatchChat.Core\\Models\\Chat\\ChatMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:10:08.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:10:08.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.API\\Program.cs",
               "RelativeDocumentMoniker": "MatchChat.API\\Program.cs",
@@ -97,12 +196,11 @@
               "RelativeToolTip": "MatchChat.API\\Program.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAmwEIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:06:23.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:06:23.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "MatchesController.cs",
               "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.API\\Controllers\\MatchesController.cs",
               "RelativeDocumentMoniker": "MatchChat.API\\Controllers\\MatchesController.cs",
@@ -110,12 +208,11 @@
               "RelativeToolTip": "MatchChat.API\\Controllers\\MatchesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAUwBUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:05:37.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:05:37.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.API\\appsettings.json",
               "RelativeDocumentMoniker": "MatchChat.API\\appsettings.json",
@@ -123,12 +220,11 @@
               "RelativeToolTip": "MatchChat.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-05T23:04:22.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:04:22.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "FootballApiService.cs",
               "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.Infrastructure\\Services\\FootballApiService.cs",
               "RelativeDocumentMoniker": "MatchChat.Infrastructure\\Services\\FootballApiService.cs",
@@ -136,12 +232,11 @@
               "RelativeToolTip": "MatchChat.Infrastructure\\Services\\FootballApiService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwBcAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:02:44.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:02:44.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "IFootballApiService.cs",
               "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.Infrastructure\\Services\\IFootballApiService.cs",
               "RelativeDocumentMoniker": "MatchChat.Infrastructure\\Services\\IFootballApiService.cs",
@@ -149,12 +244,11 @@
               "RelativeToolTip": "MatchChat.Infrastructure\\Services\\IFootballApiService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:02:06.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:02:06.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "FootballMatch.cs",
               "DocumentMoniker": "C:\\Users\\AKYOL\\Desktop\\MatchChat\\MatchChat.Core\\Models\\Football\\FootballMatch.cs",
               "RelativeDocumentMoniker": "MatchChat.Core\\Models\\Football\\FootballMatch.cs",
@@ -162,8 +256,7 @@
               "RelativeToolTip": "MatchChat.Core\\Models\\Football\\FootballMatch.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:01:13.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:01:13.681Z"
             }
           ]
         }
