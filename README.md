@@ -1,6 +1,7 @@
-# MatchChat - Türkiye Süper Ligi Canlı Maç Sohbet Platformu
 
-MatchChat, Türkiye Süper Ligi'ndeki canlı maçlar için gerçek zamanlı sohbet odaları sunan bir web uygulamasıdır. Kullanıcılar aktif maçlara katılarak diğer taraftarlarla etkileşime girebilir.
+# **MatchChat - Türkiye Süper Ligi Canlı Maç Sohbet Platformu**
+
+MatchChat, Türkiye Süper Ligi'ndeki canlı maçlar için gerçek zamanlı sohbet odaları sunan bir web platformudur. Taraftarlar aktif maçlara katılarak diğer kullanıcılarla etkileşimde bulunabilir ve maç keyfini birlikte yaşayabilir.
 
 ## 📑 İçindekiler
 
@@ -59,6 +60,7 @@ Her maç için ayrı bir sohbet odası oluşturulur ve yalnızca aktif maçları
 
 ### Backend Solution Yapısı
 
+```
 MatchChat/
 ├── src/
 │   ├── MatchChat.API/           # API Controllers ve startup yapılandırması
@@ -68,10 +70,11 @@ MatchChat/
 └── tests/
     ├── MatchChat.UnitTests/     # Unit testler
     └── MatchChat.IntegrationTests/ # Integration testler
-
+```
 
 ### Frontend Proje Yapısı
 
+```
 matchchat.web/
 ├── public/                      # Statik dosyalar (favicon, index.html vs.)
 ├── src/
@@ -92,7 +95,7 @@ matchchat.web/
 │   │   ├── auth.ts
 │   │   └── match.ts
 │   └── test-utils/              # Test yardımcı fonksiyonları
-
+```
 
 ## ✨ Özellikler
 
@@ -126,7 +129,7 @@ matchchat.web/
 
 ### Backend Kurulum
 
-\`\`\`bash
+```bash
 # Repository'yi klonlayın
 git clone https://github.com/yourusername/matchchat.git
 
@@ -135,11 +138,11 @@ docker-compose up -d
 
 # Migration'ları çalıştırın
 dotnet ef database update
-\`\`\`
+```
 
 ### Frontend Kurulum
 
-\`\`\`bash
+```bash
 # Frontend klasörüne gidin
 cd matchchat.web
 
@@ -148,23 +151,23 @@ npm install
 
 # Geliştirme sunucusunu başlatın
 npm start
-\`\`\`
+```
 
 ## 🧪 Test
 
 ### Backend Testleri
 
-\`\`\`bash
+```bash
 # Tüm testleri çalıştırma
 dotnet test
 
 # Belirli bir test projesini çalıştırma
 dotnet test MatchChat.UnitTests
-\`\`\`
+```
 
 ### Frontend Testleri
 
-\`\`\`bash
+```bash
 # Unit testleri çalıştırma
 npm test
 
@@ -173,7 +176,7 @@ npm test -- --coverage
 
 # E2E testleri
 npm run cypress:open
-\`\`\`
+```
 
 ## ✅ Yapılan İşler
 
@@ -235,7 +238,3 @@ npm run cypress:open
 - Kod kalitesi için Sonar analizi kullanılacak
 - Her sprint sonunda security audit yapılacak
 - Performance monitoring için Azure Application Insights kullanılacak
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakınız.
